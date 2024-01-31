@@ -72,7 +72,7 @@ classes = {
 
 # predict the sign
 def image_processing(img):
-    model = load_model('./model/TSDR2.h5')
+    model = load_model('D:/Traffic Sign Detection System/Web App/model/TSDR2.h5')
     data = []
     image = Image.open(img)
     image = image.convert("RGBA")
